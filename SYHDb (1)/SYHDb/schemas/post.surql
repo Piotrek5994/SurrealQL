@@ -1,0 +1,4 @@
+DEFINE TABLE post SCHEMAFULL PERMISSIONS FULL;
+DEFINE FIELD content ON TABLE post TYPE string;
+DEFINE FIELD author ON TABLE post TYPE record<user>;
+DEFINE FIELD createdAt ON TABLE post TYPE datetime DEFAULT time::now();

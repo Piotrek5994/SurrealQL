@@ -1,0 +1,1 @@
+DEFINE INDEX uniqueLike ON TABLE likes COLUMNS in,out UNIQUE;
