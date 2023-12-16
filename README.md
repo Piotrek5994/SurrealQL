@@ -1,2 +1,2 @@
 ## SheepYourHack
---Model and all function with params using to Create database
+Model and all function with params using to Create database
